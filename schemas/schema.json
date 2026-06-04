@@ -44,6 +44,7 @@
         "Divide": { "$ref": "Divide.schema.json" },
         "Duration": { "$ref": "Duration.schema.json" },
         "Equal": { "$ref": "Equal.schema.json" },
+        "FeatureEnabled": { "$ref": "FeatureEnabled.schema.json" },
         "GreaterThan": { "$ref": "GreaterThan.schema.json" },
         "GreaterThanOrEqualTo": { "$ref": "GreaterThanOrEqualTo.schema.json" },
         "LessThan": { "$ref": "LessThan.schema.json" },

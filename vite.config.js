@@ -7,7 +7,7 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: resolve(__dirname, 'lib/index.js'),
-      name: '@flippercloud.io/expressions'
+      name: '@flippercloud/expressions'
     },
     rollupOptions: {
       external: [

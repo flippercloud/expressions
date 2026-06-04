@@ -3,6 +3,7 @@
   "$id": "https://www.flippercloud.io/expressions/Random.schema.json",
   "title": "Random",
   "description": "Return a random number",
+  "category": "Value",
   "type": "array",
   "items": {
     "title": "Maximum",

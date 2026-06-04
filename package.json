@@ -1,6 +1,6 @@
 {
-  "name": "@flippercloud.io/expressions",
-  "version": "1.0.0",
+  "name": "@flippercloud/expressions",
+  "version": "1.1.0",
   "description": "Library and Schema for evaluating Flipper Expressions",
   "type": "module",
   "files": [
@@ -16,7 +16,7 @@
       "require": "./dist/expressions.umd.cjs"
     }
   },
-  "repository": "https:://github.com/jnunemaker/flipper",
+  "repository": "https://github.com/flippercloud/expressions",
   "license": "MIT",
   "dependencies": {
     "ajv": "^8.12.0",
