@@ -44,6 +44,7 @@
         "Divide": { "$ref": "Divide.schema.json" },
         "Duration": { "$ref": "Duration.schema.json" },
         "Equal": { "$ref": "Equal.schema.json" },
+        "FeatureEnabled": { "$ref": "FeatureEnabled.schema.json" },
         "GreaterThan": { "$ref": "GreaterThan.schema.json" },
         "GreaterThanOrEqualTo": { "$ref": "GreaterThanOrEqualTo.schema.json" },
         "LessThan": { "$ref": "LessThan.schema.json" },
@@ -63,6 +64,11 @@
         "Time": { "$ref": "Time.schema.json" }
       },
       "additionalProperties": false
+    },
+    "property": {
+      "title": "Property Value",
+      "description": "A value stored in context[properties]: a string, number, boolean, or null.",
+      "$ref": "#/definitions/constant"
     },
     "string": {
       "title": "String",

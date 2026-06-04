@@ -3,6 +3,7 @@
   "$id": "https://www.flippercloud.io/expressions/Property.schema.json",
   "title": "Property",
   "description": "Extract a property from context[properties].",
+  "category": "Value",
   "type": "array",
   "items": { "$ref": "schema.json#/definitions/string" },
   "minItems": 1,

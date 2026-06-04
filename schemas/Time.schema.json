@@ -3,6 +3,7 @@
   "$id": "https://www.flippercloud.io/expressions/Time.schema.json",
   "title": "Time",
   "description": "A time in ISO8601 format",
+  "category": "Value",
   "type": "array",
   "items": {
     "title": "Time",
