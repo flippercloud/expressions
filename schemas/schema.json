@@ -59,6 +59,7 @@
         "PercentageOfActors": { "$ref": "PercentageOfActors.schema.json" },
         "Property": { "$ref": "Property.schema.json" },
         "Random": { "$ref": "Random.schema.json" },
+        "SemVer": { "$ref": "SemVer.schema.json" },
         "String": { "$ref": "String.schema.json" },
         "Subtract": { "$ref": "Subtract.schema.json" },
         "Time": { "$ref": "Time.schema.json" }

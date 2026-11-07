@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.flippercloud.io/expressions/SemVer.schema.json",
+  "title": "SemVer",
+  "description": "Cast a value to a Semantic Version (semver.org 2.0.0) so comparisons use version precedence. Allows a leading v and missing minor or patch (2.3 is 2.3.0). Values that are not versions are treated as null: ordering comparisons (<, <=, >, >=) are false, while Equal and NotEqual compare them as null.",
+  "category": "Cast",
+  "symbol": "v",
+  "type": "array",
+  "items": {
+    "title": "Version",
+    "anyOf": [
+      { "type": "string" },
+      { "type": "integer", "minimum": 0 },
+      { "$ref": "schema.json#/definitions/function" }
+    ]
+  },
+  "minItems": 1,
+  "maxItems": 1
+}
